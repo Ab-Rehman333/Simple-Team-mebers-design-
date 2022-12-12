@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* for images  */
+img.first {
+    border-radius: 50%;
+    height: 120px;
+}
+
+
+.ta-team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+}
+
+.ta-main {
+    width: 320px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    border-radius: 8px;
+    transition: all .4s ease;
+}
+
+.ta-main:hover {
+    transform: translateY(-10px);
+
+}
+
+.ta-content {
+    padding: 1rem;
+}
+
+.ta-top-bar {
+    background-color: #F95C39;
+    width: 100%;
+    height: 32px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.ta-profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0000001a;
+    gap: 22px;
+}
+
+.ta-left-image-section {
+    border-right: 1px solid #00000017;
+    padding-right: 0.7rem;
+}
+
+.ta-image-and-span {
+    position: relative;
+}
+
+.ta-image-and-span>i {
+    position: absolute;
+    top: 91px;
+    right: auto;
+    background-color: white;
+    width: 19px;
+    font-size: 1.33rem;
+    display: flex;
+    margin: 2px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.ta-text-before__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+
+.ta-text-before__profile>span {
+    font-family: cursive;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.ta-about-section {
+    padding: 1rem 0;
+}
+
+.ta-about-section>h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding-bottom: 10px;
+    color: #536374;
+}
+
+.ta-about-section>p {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.ta-about-section>a {
+    color: #F95C39;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    margin-top: 1rem;
+}
+
+.btn>a {
+    text-decoration: none;
+    height: 40px;
+    width: 107px;
+    border: 1px solid #F95C39;
+    color: #F95C39;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@media only screen and (max-width: 1144px) {
+    .ta-main {
+        width: 100%;
+    }
+}
